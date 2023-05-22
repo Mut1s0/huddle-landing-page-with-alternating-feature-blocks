@@ -1,0 +1,25 @@
+:root {
+    /* Primary Colors */
+    --clr-pink: hsl( 322, 100%, 66% );
+
+    /* Neutral Colors */
+    --clr-very-pale-cyan: hsl( 193, 100%, 96% );
+    --clr-very-dark-cyan: hsl( 192, 100%, 9% );
+    --clr-grayish-blue: hsl( 208, 11%, 55% );
+
+    /* Body Copy */
+    --fs: 18px;
+
+    /* Heading Font */
+    --ff-poppins: 'Poppins', sans-serif;
+
+    /* Font Weight */
+    --fw-600: 600;
+
+    /* Body, Call-to-actions */
+    --ff-open-sans: 'Open Sans', sans-serif;
+
+    /* Font Weight */
+    --fw-400: 400;
+    --fw-700: 700;
+}
