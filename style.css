@@ -37,7 +37,10 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: var(--ff-poppins);
-    border: 2px solid yellow;
+    padding: 2rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1.5rem;
     height: 50%;
 }
 
@@ -75,22 +78,55 @@ nav {
 }
 
 .link > a {
-    border: 2px solid;
     text-decoration: none;
     color: var(--clr-very-dark-cyan);
     font-weight: var(--fw-600);
     background-color: #fff;
-    padding: 0.5rem 5rem;
+    padding: 0.7rem 5rem;
     border-radius: 1.3rem;
+    text-transform: capitalize;
 }
 
 main {
-    border: 2px solid green;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
+.left-header-section {
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.header_header > h1 {
+    text-transform: capitalize;
+    font-size: 2.9rem;
+    max-width: 90%;
+}
+
+.header-p > p {
+    font-weight: var(--fw-600);
+    font-size: var(--fs);
+    max-width: 78%;
+    line-height: 1.5;
+}
+
+.header_link > li > a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: var(--clr-pink);
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+}
+
 .right-header-section > picture > img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
