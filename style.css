@@ -29,3 +29,68 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: var(--clr-very-pale-cyan);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: var(--ff-poppins);
+    border: 2px solid yellow;
+    height: 50%;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5rem 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logo > a {
+    display: flex;
+    align-items: center;
+}
+
+.logo > a > img {
+    width: 200px;
+    height: auto;
+}
+
+.nav_link {
+    height: 100%;
+}
+
+.link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.link > a {
+    border: 2px solid;
+    text-decoration: none;
+    color: var(--clr-very-dark-cyan);
+    font-weight: var(--fw-600);
+    background-color: #fff;
+    padding: 0.5rem 5rem;
+    border-radius: 1.3rem;
+}
+
+main {
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.right-header-section > picture > img {
+    width: 100%;
+    height: auto;
+}
