@@ -457,18 +457,18 @@ footer {
     }
 }
 
-@media only screen and (max-width: 700px)  {
+@media only screen and (max-width: 800px)  {
     .link > a {
         padding: 1rem 2.5rem;
         border-radius: 2rem;
     }
 
     .header_header > h1 {
-        font-size: 1rem;
+        font-size: 1.8rem;
     }
 
     .header-p > p {
-        font-size: 10px;
+        font-size: 13px;
         max-width: 78%;
     }
 
@@ -492,7 +492,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     header {
         background-image: url(./images/bg-hero-mobile.svg);
         background-color: var(--clr-very-pale-cyan);
@@ -521,13 +521,13 @@ footer {
     }
 
     .header_header > h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         max-width: 100%;
     }
 
     .header-p > p {
         max-width: 100%;
-        font-size: 0.65rem;
+        font-size: 0.9rem;
     }
 
     .right-header-section {
