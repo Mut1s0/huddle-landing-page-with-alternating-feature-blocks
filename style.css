@@ -87,6 +87,10 @@ nav {
     text-transform: capitalize;
 }
 
+.link > a:hover {
+    opacity: 0.5;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -130,6 +134,10 @@ main {
     border-radius: 2rem;
     font-size: var(--fs);
     font-weight: var(--fw-600);
+}
+
+.header_link > li > a:hover {
+    opacity: 0.6;
 }
 
 .right-header-section > picture > img {
@@ -255,6 +263,10 @@ main {
     border-radius: 2rem;
 }
 
+.get_started_link > ul > li > a:hover {
+    opacity: 0.6;
+}
+
 footer {
     height: 550px;
     padding-top: 10rem;
@@ -323,6 +335,10 @@ footer {
 .footer-socials > ul > li > a {
     text-decoration: none;
     color: #fff;
+}
+
+.footer-about > ul > li > a:hover {
+    border-bottom: 1px solid #fff;
 }
 
 .footer-socials > ul {
