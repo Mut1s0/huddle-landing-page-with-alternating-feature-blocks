@@ -138,7 +138,7 @@ main {
 }
 
 .hero-section {
-    padding: 6rem 0;
+    padding: 5rem 0 1rem 0;
     font-family: var(--ff-open-sans);
 }
 
@@ -220,4 +220,215 @@ main {
     width: 50%;
     height: 270px;
     margin: 0 auto;
+}
+
+.get-started-wrapper {
+    position: relative;
+    top: 120px;
+    max-width: 650px;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 1.5rem 0;
+}
+
+.get_started_header > h1 {
+    text-transform: capitalize;
+}
+
+.get_started_link > ul > li {
+    list-style: none;
+}
+
+.get_started_link > ul > li > a {
+    color: #fff;
+    font-weight: var(--fw-400);
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: var(--clr-pink);
+    padding: 1.2rem 3rem;
+    border-radius: 2rem;
+}
+
+footer {
+    height: 550px;
+    padding-top: 10rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--clr-very-dark-cyan);
+}
+
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 350px;
+    color: #fff;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    grid-column: 1 / 6;
+}
+
+.footer-contact {
+    grid-column: 1 / 3;
+}
+
+.location,
+.telephone,
+.email {
+    display: flex;
+    height: 34%;
+    align-items: center;
+}
+
+.location_icon,
+.telephone_icon,
+.email_icon {
+    margin: 0 1rem;
+}
+
+.footer-about {
+    grid-column: 3 / 4;
+}
+
+.footer-career {
+    grid-column: 4 / 5;
+}
+
+.footer-socials {
+    grid-column: 5 / 6;
+}
+
+.footer-about > ul,
+.footer-career > ul,
+.footer-socials > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 65%;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.footer-about > ul > li > a,
+.footer-career > ul > li > a,
+.footer-socials > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-socials > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 50%;
+    justify-content: space-evenly;
+}
+
+.footer-socials > ul > li {
+    border: 1px solid #fff;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.copyright {
+    grid-column: 1 / 6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--clr-very-pale-cyan);
+}
+
+@media only screen and (max-width: 1024px) {
+    .link > a {
+        padding: 1rem 3.5rem;
+        border-radius: 2rem;
+    }
+
+    .header-content {
+        min-height: 300px;
+    }
+    .header_header > h1 {
+        font-size: 1.8rem;
+    }
+    .header-p > p {
+        font-size: 13px;
+        max-width: 78%;
+    }
+    .header_link > li > a {
+        font-size: 13px;
+    }
+
+    .grow_header > h1,
+    .flow_header > h1,
+    .your_user_header > h1 {
+        font-size: 22px;
+    }
+
+    .grow_p > p,
+    .flow_p > p,
+    .your_user_p > p {
+        font-size: 10px;
+    }
+
+    .grow_section,
+    .flowing_section,
+    .your_user_section {
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        max-width: 320px;
+        margin: 0 auto;
+        padding: 0 1rem;
+        line-height: 2;
+    }
+
+    .grow_section_img > img,
+    .flowing_conversation_img > img,
+    .you_user_img > img {
+        width: 80%;
+        height: 270px;
+        margin: 0 auto;
+    }
+
+    .get_started_header > h1 {
+        font-size: 1.2rem;
+    }
+    .get_started_link > ul > li > a {
+        font-size: 0.8rem;
+    }
+
+    .location > p,
+    .telephone > p,
+    .email > p {
+        font-size: 0.8rem;
+    }
+
+    .footer-about > ul > li > a,
+    .footer-career > ul > li > a,
+    .footer-socials > ul > li > a {
+        font-size: 0.7rem;
+    }
+
+    .footer-socials > ul {
+        max-width: 75%;
+    }
+
+    .footer-socials > ul > li {
+        padding: 0.3rem;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+    }
 }
