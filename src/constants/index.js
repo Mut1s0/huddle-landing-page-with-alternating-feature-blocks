@@ -1,6 +1,6 @@
 import { flowingConversation, growTogether, users, iconEmail, iconLocation, iconPhone, facebook, twitter, instagram} from "../assets";
 
-export const community = [
+export const businesses = [
     {
         id: "community-1",
         icon: growTogether,
@@ -10,7 +10,7 @@ export const community = [
     {
         id: "community-2",
         icon: flowingConversation,
-        title: "Flowing COnversations",
+        title: "Flowing Conversations",
         text: "You would not paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for more natural flow."
     },
     {

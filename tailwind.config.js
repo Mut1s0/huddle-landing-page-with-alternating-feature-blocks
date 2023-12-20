@@ -12,17 +12,13 @@ export default {
         veryDarkCyan: "hsl( 192, 100%, 9% )",
         grayishBlue: "hsl( 208, 11%, 55% )"
       },
-      fontFamilyHeadings: {
-        poppins: [ 'Poppins', 'sans-serif']
-      },
-      fontFamilyBodyCallToAction: {
+      fontFamily: {
+        poppins: [ 'Poppins', 'sans-serif'],
         openSans: [ 'Open Sans', 'sans-serif' ]
       },
-      fontWeightPoppins: {
-        semiBold: "600"
-      },
-      fontWeightOpenSans: {
+      fontWeight: {
         regular: "400",
+        semiBold: "600",
         bold: "700",
       },
     },
