@@ -8,7 +8,7 @@ function App() {
 
       <div>
 
-        <header>
+        <header className="py-8 lg:py-10">
 
           <Navbar />
           <Hero />

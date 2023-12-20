@@ -7,3 +7,17 @@
 body {
     font-size: 18px;
 }
+
+header {
+    background-image: url(./assets/bg-hero-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl( 193, 100%, 96% );
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        background-image: url(./assets/bg-hero-desktop.svg);
+    }
+}
