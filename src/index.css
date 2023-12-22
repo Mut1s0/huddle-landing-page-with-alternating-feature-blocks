@@ -26,6 +26,10 @@ footer {
     }
 }
 
+.free {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .box-shadow {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -38,7 +42,7 @@ footer {
 .instagram,
 .twitter {
     filter: invert(1) grayscale(1) brightness(100);
-    border: 2px solid black;
+    border: 1px solid black;
     padding: .5rem;
     border-radius: 100%;
 }

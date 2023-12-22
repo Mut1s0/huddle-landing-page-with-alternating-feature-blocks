@@ -10,7 +10,7 @@ function CTA() {
 
             <div className="text-center rounded-[10px] max-w-[90%] ss:max-w-[50%] ss:w-[600px] mx-auto py-[40px] relative top-0 right-0 bg-white call-to-action">
 
-                <h1 className="capitalize mb-5 font-poppins font-bold">Ready to build your community ?</h1>
+                <h1 className="capitalize mb-5 font-poppins font-bold text-[1rem] md:text-[1.6rem]">Ready to build your community ?</h1>
 
                 <Button />
 
