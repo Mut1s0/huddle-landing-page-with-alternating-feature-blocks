@@ -16,6 +16,10 @@ header {
     background-color: hsl( 193, 100%, 96% );
 }
 
+footer {
+    background-color: hsl( 192, 100%, 9% );
+}
+
 @media only screen and (min-width: 768px) {
     header {
         background-image: url(./assets/bg-hero-desktop.svg);
@@ -24,4 +28,17 @@ header {
 
 .box-shadow {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.call-to-action {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.facebook,
+.instagram,
+.twitter {
+    filter: invert(1) grayscale(1) brightness(100);
+    border: 2px solid black;
+    padding: .5rem;
+    border-radius: 100%;
 }

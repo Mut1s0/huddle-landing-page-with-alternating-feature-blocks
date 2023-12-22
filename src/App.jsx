@@ -22,7 +22,7 @@ function App() {
 
         </article>
 
-        <footer>
+        <footer className="lg:h-[650px] mt-[100px]">
 
           <Footer />
 

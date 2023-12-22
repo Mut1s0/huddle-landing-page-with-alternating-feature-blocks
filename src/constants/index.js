@@ -1,4 +1,4 @@
-import { flowingConversation, growTogether, users, iconEmail, iconLocation, iconPhone, facebook, twitter, instagram} from "../assets";
+import { flowingConversation, growTogether, users, iconEmail, iconLocation, iconPhone} from "../assets";
 
 export const businesses = [
     {
@@ -21,7 +21,7 @@ export const businesses = [
     },
 ]
 
-export const contact = [
+export const contacts = [
     {
         id: "contact-1",
         icon: iconLocation,
@@ -66,20 +66,5 @@ export const more = [
     {
         id: "more-3",
         content: "Contact Us"
-    }
-]
-
-export const socialIcons = [
-    {
-        id: "social-icons-1",
-        icon: facebook
-    },
-    {
-        id: "social-icons-2",
-        icon: twitter
-    },
-    {
-        id: "social-icons-3",
-        icon: instagram
     }
 ]
